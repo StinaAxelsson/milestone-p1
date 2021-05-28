@@ -1,0 +1,34 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    position: fixed;
+}
+#logo{
+    width: 33%px;
+    height: 75px;
+    margin: 5px 50px;
+    float: left;
+}
+
+#menu-links{
+    width: 100%;
+    height: 75px;
+    text-align: right;
+}
+#menu-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    padding: 10px 20px;
+    margin: 10px 30px;
+}
