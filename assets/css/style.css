@@ -61,3 +61,13 @@ header{
 
 /*---THE HERO IMAGE/BACKGORUND IMAGE---*/
 
+#background-image{
+    background-image: url(../images/wiz_bakgrund_blurr.jpg);
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
