@@ -59,15 +59,28 @@ header{
     margin: 5px;
 }
 
-/*---THE HERO IMAGE/BACKGORUND IMAGE---*/
+/*---FIRST SECTION, BACKGROUND IMAGE---*/
 
 #background-image{
     background-image: url(../images/wiz_bakgrund_blurr.jpg);
-    height: 700px;
+    height: 670px;
     width: 100%;
+    top: 0;
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+.latest-album{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    width: 450px;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
