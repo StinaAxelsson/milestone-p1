@@ -88,6 +88,7 @@ header{
 
 
 /*--ZOOM EFFECT FOR LATEST-ALBUM CLASS-- */
+
 @keyframes album-zoom{
 from{
     transform: scale(0.7)
@@ -96,9 +97,10 @@ to{
     transform: scale(1);
 }
 }
+
 /*--H2, BUTTONS WITH LINK UNDER LATEST-COVER--*/
 
-h2{
+#stream{
     font-size: 26px;
     font-family: 'Architects Daughter', cursive;
     color: white;
@@ -107,28 +109,44 @@ h2{
     letter-spacing: 3px;
 }
 
-button{
+.container{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
 
-        background-color: DodgerBlue; /* Blue background */
-        border: none; /* Remove borders */
-        padding: 12px 16px; /* Some padding */
-        cursor: pointer; /* Mouse pointer on hover */
-        display: inline-block;
-        width:10%;
-        margin-left:45%;
-        margin-right:45%;
-      }
-      button a{
-          color: white;
-          text-decoration: none;
-          
-      }
-button i{
-          padding: 5%;
-          font-size: 16px;
-          color: green;
-      }
-      /* Darker background on mouse-over */
-button:hover {
-        background-color: RoyalBlue;
-      }
+.center-btn1{
+    background-color: DodgerBlue; 
+    border: none; 
+    padding: 12px 16px; 
+    cursor: pointer; 
+    width:10%;
+}
+.center-btn1 i{
+    padding: 5%;
+    font-size: 16px;
+    color: green;
+}
+      
+.center-btn1:hover {
+    background-color: RoyalBlue;
+}
+
+.center-btn2{
+    background-color: yellow; 
+    border: none; 
+    padding: 12px 16px; 
+    cursor: pointer; 
+    width:10%;
+}
+
+.center-btn2 i{
+    padding: 5%;
+    font-size: 16px;
+    color: orange;
+}
+
+.center-btn2:hover {
+    background-color: red;
+}     
+
