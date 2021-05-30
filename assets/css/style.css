@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /*---HEADER, LOGO AND MENU---*/
 
@@ -55,6 +55,7 @@ header{
     font-size: 18px;
     color:  #ff4dd2;
     border: 1px solid white;
+    border-radius: 5px;
     padding: 5px 10px;
     margin: 5px;
 }
@@ -120,7 +121,7 @@ to{
     border: 1px solid white; 
     padding: 9px 10px; 
     cursor: pointer; 
-    width:5%;
+    width: 10%;
     border-radius: 5px;
 }
 .center-btn1 i{
@@ -141,3 +142,11 @@ to{
     background-color: red;
 }     
 
+/*--ABOUT SECTION--*/
+
+h2{
+    
+}
+p{
+
+}
