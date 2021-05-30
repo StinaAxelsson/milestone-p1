@@ -64,13 +64,14 @@ header{
 
 #background-image{
     background-image: url(../images/wiz_bakgrund_blurr.jpg);
-    height: 640px;
+    height: 660px;
     width: 100%;
     top: 0;
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #ccddff;
 }
 .latest-album{
     display: block;
@@ -142,9 +143,23 @@ to{
 
 /*--ABOUT SECTION--*/
 
-h2{
-    font-family: 'Architects Daughter', cursive;
+#about{
+    padding-top: 3%;
+    font-size: 16px;
+    background-color: #cce6ff;
+
 }
-p{
+#about h2{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+#about-hr{
+    margin: 10px 300px;
+    color: 2px solid black;
+}
+
+.about-text{
 
 }
