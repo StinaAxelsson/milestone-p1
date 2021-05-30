@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@300&family=PT+Sans&display=swap');
 
 *{
     padding: 0px;
@@ -116,36 +116,34 @@ to{
     width: 100%;
 }
 
-.center-btn1, .center-btn2{
-    background-color: rgba(89, 0, 179, 0.6); 
+.center-btn{
+    background-color: rgba(64, 64, 64, 0.6); 
     border: 1px solid white; 
     padding: 9px 10px; 
     cursor: pointer; 
-    width: 10%;
+    width: 15%;
     border-radius: 5px;
 }
-.center-btn1 i{
+.center-btn a{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+}
+.center-btn i{
     font-size: 32px;
-    color: #00ff00;
+    color: white;
 }
       
-.center-btn1:hover {
-    background-color: #33cc33;
+.center-btn:hover {
+    background-color: black;
 }
-
-.center-btn2 i{
-    font-size: 32px;
-    color: #ff3300;
-}
-
-.center-btn2:hover {
-    background-color: red;
-}     
 
 /*--ABOUT SECTION--*/
 
 h2{
-    
+    font-family: 'Architects Daughter', cursive;
 }
 p{
 
