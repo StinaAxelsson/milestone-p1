@@ -77,8 +77,8 @@ header{
     display: block;
     margin: 40px auto 10px auto;
     width: 50%;
-    height: 450px;
-    width: 450px;
+    height: 30rem;
+    width: 30rem;
     padding: 5px;
     border: 3px solid #ddd;
     border-radius: 5px;
@@ -140,48 +140,10 @@ to{
 /*--ABOUT SECTION--*/
 
 #about{
-    padding-top: 3%;
-    font-size: 16px;
-    background-color: #000000;
-
-}
-#about h2{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 30px;
-    text-align: center;
-    color: #ff4dd2;
-
-}
-
-.about-container{
-    display: flex;
-    flex-wrap: row wrap;
-    background-color: #000;
-    justify-content: center;
-}
-.about-box1{
-    background-color: rgba(64, 64, 64, 0.6);
-    color: white;
-    width: 45%;
-    margin: 10px;
-    padding: 10px;
-    text-align: right;
-    line-height: 30px;
-    font-size: 18px;
-    border-radius: 5px;
-    
-}
-.about-box2{
-    background-color: rgba(64, 64, 64, 0.6);
-    width: 40%;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 5px;
-    
-}
-.image1{
-    width:600px;
-    height: auto;
+   background-image: url(../images/about.jpg); 
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
