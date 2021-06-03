@@ -111,7 +111,7 @@ to{
     letter-spacing: 3px;
 }
 
-.container{
+.btn-container{
     display: inline-block;
     text-align: center;
     width: 100%;
@@ -155,11 +155,19 @@ to{
     text-align: center;
 
 }
-#about-hr{
-    margin: 10px 300px;
-    color: 2px solid black;
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
 }
-
-.about-text{
-
+.about-textbox{
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
 }
