@@ -102,15 +102,6 @@ to{
 
 /*--H2, BUTTONS WITH LINK UNDER LATEST-COVER--*/
 
-#stream{
-    font-size: 26px;
-    font-family: 'Architects Daughter', cursive;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    letter-spacing: 3px;
-}
-
 .btn-container{
     display: inline-block;
     text-align: center;
@@ -126,21 +117,19 @@ to{
     border-radius: 5px;
 }
 .left-btn a{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Architects Daughter', cursive;
     color: white;
     text-decoration: none;
     font-size: 28px;
     text-align: center;
 }
 .right-btn a{
-font-family: 'PT Sans', sans-serif;
-color: white;
-text-decoration: none;
-font-size: 28px;
-text-align: center;
-}
-
-      
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+}      
 .left-btn:hover {
     background-color: black;
 }
