@@ -48,16 +48,15 @@ header{
 
 #menu-links a:hover{
     color:  #ff4dd2;
-    font-size: 18px;
+    font-size: 16px;
+    border-bottom: 1px solid #ff4dd2;
 }
 
 .active{
-    font-size: 18px;
+    font-size: 16px;
     color:  #ff4dd2;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 5px;
+    border-bottom: 1px solid #ff4dd2;
+
 }
 
 /*---FIRST SECTION, BACKGROUND IMAGE---*/
