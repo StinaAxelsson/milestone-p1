@@ -232,6 +232,7 @@ hr{
     height: 75px;
     background-color: black;
 }
+
 .music-header h2{
     font-family: 'Audiowide', cursive;
     font-size: 40px;
@@ -244,12 +245,12 @@ hr{
 .grid-container {
     display: grid;
     width: auto;
-    height: 1200px;
+    height: 900px;
     background-image: url(../images/music-bgn.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     justify-content: center;
     align-content: space-evenly;
     background-color: #800060;
@@ -257,8 +258,7 @@ hr{
     grid-gap: 50px 100px;
     grid-template-areas: 
     "photo1 photo2 photo3"
-    "photo4 photo5 photo6"
-    "photo7 photo8";
+    "photo4 photo5 photo6";
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -266,8 +266,8 @@ hr{
     border-radius: 5px;
     padding: 10px;
   }
-  .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8 {
-      grid-area: photo1 photo2 photo3 photo4 photo5 photo6 photo7 photo8;
+  .photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+      grid-area: photo1 photo2 photo3 photo4 photo5 photo6;
       height: 100%;
       width: 100%;
       background-size: cover;
@@ -302,18 +302,22 @@ hr{
     width: 100%;
     height: 100%;
   }
-  .photo7>a img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  .photo8>a img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  .photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover, .photo6:hover,
-  .photo7:hover, .photo8:hover{
+
+  .photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover, .photo6:hover{
     background-color: #5900b3;
   }
 
+.grid-container p{
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.grid-text{
+    color: white;
+    text-align: center;
+    bottom: 0;
+    height: 75px;
+    background-color: black;
+    padding: 10px;
+}
