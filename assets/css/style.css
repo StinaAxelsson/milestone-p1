@@ -267,44 +267,48 @@ hr{
       width: 100%;
       background-size: cover;
   }
-  .photo1>img {
+  .photo1>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo2>img {
+  .photo2>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo3>img {
+  .photo3>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo4>img {
+  .photo4>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo5>img {
+  .photo5>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo6>img {
+  .photo6>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo7>img {
+  .photo7>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
-  .photo8>img {
+  .photo8>a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+  }
+  .photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover, .photo6:hover,
+  .photo7:hover, .photo8:hover{
+    background-color: #000;
   }
 
