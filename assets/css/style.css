@@ -157,6 +157,11 @@ to{
     font-family: 'Audiowide', cursive;
     padding: 20px 0;
     margin-top: 20px;
+    color: #000;
+
+    text-shadow: -1px -1px 0px #99bbff,
+    3px 3px 0px #e600ac,
+    6px 6px 0px #99bbff;
 }
 
 .text-box{
@@ -239,6 +244,10 @@ hr{
     text-align: center;
     padding: 10px;
     color: white;
+
+    text-shadow: -1px -1px 0px #800060,
+    3px 3px 0px #99bbff,
+    6px 6px 0px #e600ac;
     
 }
 /* -Style all the albums in a grid- */
@@ -253,7 +262,7 @@ hr{
     grid-template-rows: 300px 300px;
     justify-content: center;
     align-content: space-evenly;
-    background-color: #800060;
+    background-color: #000;
     padding: 10px;
     grid-gap: 50px 100px;
     grid-template-areas: 
@@ -304,7 +313,7 @@ hr{
   }
 
   .photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover, .photo6:hover{
-    background-color: #5900b3;
+    background-color: #e600ac;
   }
 
 .grid-container p{
