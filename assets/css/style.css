@@ -353,3 +353,51 @@ hr{
     3px 3px 0px #e600ac,
     6px 6px 0px #99bbff;
 }
+.event-container{
+    display: grid;
+    width: auto;
+    height: 600px;
+    grid-template-columns: 600px 300px ;
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-content: space-evenly;
+    background-color: #e6e6e6;
+    padding: 10px;
+    grid-gap: 30px 50px;
+    grid-template-areas: 
+    ".europe-map .event-box";
+}
+.europe-map, .event-box {
+    grid-area: europe-map, event-box;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.europe-map img{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin: auto;
+    padding-left: 10px;
+}
+.event-box{
+    object-fit: cover;
+    float: right;
+    background-color: rgba(230, 0, 172, 0.4);
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+.event-box h3{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.event-box th, td{
+    margin-bottom: 12px;
+    padding: 9px;
+    font-size: 18px;
+}
