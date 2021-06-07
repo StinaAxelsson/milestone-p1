@@ -334,70 +334,61 @@ hr{
 
 #events{
     width: 100%;
-    height: 900px;
-    background-color: #e6e6e6;
+    height: 950px;
+    overflow: hidden;
+    background-image: url(../images/europe-map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.events-header{
-    top: 0;
-    height: 75px;
-    background-color: #e6e6e6;
-}
-.events-header h2{
+#events h2{
     font-family: 'Audiowide', cursive;
     font-size: 40px;
     text-align: center;
     padding-top: 30px;
     color: black;
+    background-color: white;
 
     text-shadow: -1px -1px 0px #800060,
     3px 3px 0px #e600ac,
     6px 6px 0px #99bbff;
 }
 .event-container{
-    display: grid;
-    width: auto;
-    height: 600px;
-    grid-template-columns: 600px 300px ;
-    grid-template-rows: 400px;
-    justify-content: center;
-    align-content: space-evenly;
-    background-color: #e6e6e6;
-    padding: 10px;
-    grid-gap: 30px 50px;
-    grid-template-areas: 
-    ".europe-map .event-box";
-}
-.europe-map, .event-box {
-    grid-area: europe-map, event-box;
-    height: 100%;
+    display: inline-block;
     width: 100%;
-    background-size: cover;
-}
-.europe-map img{
-    width: 100%;
-    height: auto;
-    text-align: left;
-    margin: auto;
-    padding-left: 10px;
 }
 .event-box{
-    object-fit: cover;
-    float: right;
-    background-color: rgba(230, 0, 172, 0.4);
-    color: black;
+    width: 45%;
+    display: inline-block;
+    margin: 20px 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-    padding: 20px;
+
 }
 .event-box h3{
+    font-size: 30px;
     font-family: 'Audiowide', cursive;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 22px;
-    padding-bottom: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    padding: 20px 0;
+    font-weight: 800;
 }
-.event-box th, td{
-    margin-bottom: 12px;
-    padding: 9px;
-    font-size: 18px;
+table{
+    text-align: left;
+}
+
+th{
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+}
+td{
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
 }
