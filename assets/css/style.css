@@ -145,6 +145,7 @@ to{
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .about-container{
     width: 100%;
@@ -336,9 +337,10 @@ hr{
     width: 100%;
     height: 950px;
     overflow: hidden;
-    background-image: url(../images/europe-map.png);
+    background-image: url(../images/europe-mapp.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #events h2{
     font-family: 'Audiowide', cursive;
@@ -346,7 +348,6 @@ hr{
     text-align: center;
     padding-top: 30px;
     color: black;
-    background-color: white;
 
     text-shadow: -1px -1px 0px #800060,
     3px 3px 0px #e600ac,
@@ -357,7 +358,7 @@ hr{
     width: 100%;
 }
 .event-box{
-    width: 45%;
+    width: 50%;
     display: inline-block;
     margin: 20px 50px;
     padding: 5px 5px 10px 5px;
@@ -392,6 +393,12 @@ td{
     padding: 10px;
     margin: 10px;
 }
+.disclaimer{
+    display: inline-block;
+    float: right;
+    width: 40%;
+    top: 0;
+}
 .booking-container{
     display: block;
     text-align: left;
@@ -417,4 +424,26 @@ td{
 }
 .contact-btn:hover {
     background-color: black;
+}
+
+.disclaimer{
+    display: inline-block;
+    float: right;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.disclaimer h3{
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+.disclaimer p{
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
 }
