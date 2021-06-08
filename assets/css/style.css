@@ -337,10 +337,11 @@ hr{
     width: 100%;
     height: 950px;
     overflow: hidden;
-    background-image: url(../images/europe-mapp.png);
+    background-image: url(../images/mapp3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 #events h2{
     font-family: 'Audiowide', cursive;
@@ -358,7 +359,7 @@ hr{
     width: 100%;
 }
 .event-box{
-    width: 50%;
+    width: 40%;
     display: inline-block;
     margin: 20px 50px;
     padding: 5px 5px 10px 5px;
@@ -374,7 +375,6 @@ hr{
     font-family: 'Audiowide', cursive;
     text-align: left;
     letter-spacing: 1px;
-    border-bottom: 1px solid black;
     margin-top: 20px;
     padding: 20px 0;
     font-weight: 800;
@@ -392,12 +392,6 @@ td{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
-}
-.disclaimer{
-    display: inline-block;
-    float: right;
-    width: 40%;
-    top: 0;
 }
 .booking-container{
     display: block;
@@ -427,15 +421,15 @@ td{
 }
 
 .disclaimer{
-    display: inline-block;
-    float: right;
-    width: 30%;
-    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    width: 100%;
+    background-color: rgba(230, 0, 172, 0.9);
     border-radius: 5px;
     text-align: center;
-    margin-top: 20px;
-    margin-right: 100px;
+    margin: 10px auto 10px auto;
+    width: 50%;
     padding: 10px;
+    border: 3px solid #99bbff;
 }
 .disclaimer h3{
     font-size: 30px;
@@ -446,4 +440,5 @@ td{
     font-size: 18px;
     padding: 5px;
     margin: 10px;
+    font-weight: 800;
 }
