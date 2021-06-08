@@ -393,6 +393,10 @@ td{
     padding: 10px;
     margin: 10px;
 }
+td > i{
+    color: #e600ac;
+    padding-right: 3px;
+}
 .booking-container{
     display: block;
     text-align: left;
@@ -423,7 +427,7 @@ td{
 .disclaimer{
     display: block;
     width: 100%;
-    background-color: rgba(230, 0, 172, 0.9);
+    background-color: rgba(153, 187, 255, 0.9);
     border-radius: 5px;
     text-align: center;
     margin: 10px auto 10px auto;
