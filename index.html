@@ -142,11 +142,11 @@
     </section>
     <section id="events">
         <div>
-            <h2>Events</h2>
+            <h2>Upcoming</h2>
         </div>
             <div class="event-container">
             <div class="event-box">
-                <h3>Upcoming</h3>
+                <h3>Events</h3>
                 <hr>
                 <table>
                     <tr>
@@ -182,14 +182,34 @@
                 <p>
                     Due to prevailing circumstances.<br>
                     Wizack Twizack have no upcoming event just yet. The dates is primary
-                    and we have to wait until goverment will give us permission for hold any sort of evenst or partys.<br>
+                    and we have to wait until goverment will give us permission for hold any sort of evenst or partys again.<br>
                     Thank you for your patiant!
                 </p>
             </div>
             </div>
-
     </section>
-    <section>contact me section, to ask or book him</section>
+    <section id="contact">
+        <div>
+            <h2>Contact</h2>
+        </div>
+        <div class="contact-form">
+            <form method="POST" action="/action_page.php" class="contact">
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="firstname" class="text-input" placeholder="Steven...">
+
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lastname" class="text-input" placeholder="Hawkins...">
+
+            <label for="mail">Email Address: </label>
+            <input type="email" id="mail" name="email" class="text-input" placeholder="steven_hawkins@gmail.com">
+
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" class="text-input" placeholder="Write here..."></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+        </div>
+    </section>
     <footer>social links, download link, copywhrite</footer>
 </body>
 
