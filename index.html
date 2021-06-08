@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header" id="top">
         <nav>
             <a href="index.html" title="Back to start">
                 <img src="../assets/images/wiz_logga_black.jpg" alt="logo with the text WIZACK TWIZACK" id="logo">
@@ -23,12 +23,11 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#music">MUSIC</a></li>
                     <li><a href="#events">EVENTS</a></li>
-                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-
     <section id="background-image">
         <div> 
             <img src="assets/images/6.jpg" alt="Picture of Wizack Twizack latest album" class="latest-album">
@@ -67,7 +66,7 @@
             </div>
             <div class="booking-container">
                 <button class="contact-btn">
-                    <a href="https://li.sten.to/WizackTwizack" target="_blank" rel="noopener"
+                    <a href="#contact" target="_blank" rel="noopener"
                         aria-label="Link to my streming sites (opens in a new tab)">For Booking</a>
                 </button>
             </div>
@@ -138,6 +137,7 @@
                 <br>
                  Spotify, Soundcloud and Bandcamp
             </h3>
+            
         </div>
     </section>
     <section id="events">
@@ -173,7 +173,7 @@
             </div>
             <div class="booking-container">
                 <button class="contact-btn">
-                    <a href="https://li.sten.to/WizackTwizack" target="_blank" rel="noopener"
+                    <a href="#contact" target="_blank" rel="noopener"
                         aria-label="Link to my streming sites (opens in a new tab)">Contact</a>
                 </button>
             </div>
@@ -194,7 +194,7 @@
         </div>
         <div class="contact-form">
             <h3>Get in contact! Or intrested in booking Wizack Twizack in furure? Slide in downunder!</h3>
-            <form method="POST" action="/action_page.php" class="contact">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact">
             <label for="fname">First Name: </label>
             <input type="text" id="fname" name="firstname" class="text-input" placeholder="Steven...">
 
@@ -207,6 +207,7 @@
             <input class="send-btn" type="submit" value="Send!">
         </form>
         </div>
+        <a href="#top"><button class="top">Top</button></a>
     </section>
     <footer>social links, download link, copywhrite</footer>
 </body>
