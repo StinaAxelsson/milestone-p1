@@ -331,6 +331,23 @@ hr{
     background-color: black;
     padding: 10px;
 }
+.spotify-list{
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    padding: 0px 20px 40px 20px;
+}
+.spotify-list iframe{
+    display: block;
+    max-width: 500px;
+    width: 50%;
+    text-align: center;
+    height: 380px;
+    margin: 0px auto 0px auto;
+    border-radius: 5px;
+
+}
+
 /*--EVENTS SECTION--*/
 
 #events{
@@ -450,7 +467,7 @@ td > i{
 
 #contact{
     width: 100%;
-    height: 900px;
+    height: 800px;
     overflow: hidden;
     background-image: url(../images/wiz_bakgrund_blurr.jpg);
     background-size: cover;
@@ -527,6 +544,44 @@ form{
 .send-btn:hover {
     background-color: black;
 }
+/*--FOOTER SECTION--*/
+
+footer{
+    height: 150px;
+}
+.footer-container{
+ background-color: black;
+ background-image: linear-gradient(to bottom, #0000, #e600ac);
+ display: inline-block;
+ width: 100%;
+}
+
+.social-links{
+    text-align: center;
+    padding-top: 3%;
+}
+.social-links li{
+    display: inline;
+}
+
+.social-links i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: black;
+}
+.social-links i:hover{
+    color: #e600ac;
+}
+.footer-text{
+    text-align: center;
+    color: #99bbff;
+}
+.footer-text h4{
+    padding: 1%;
+}
+
+
 /*scroll botton to take the user to top page while scrolling*/
 html{
     scroll-behavior: smooth;
