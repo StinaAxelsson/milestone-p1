@@ -620,3 +620,13 @@ html{
   .top:hover{
       background-color: #000;
   }
+/*For medium screen sizes from 950px and down*/
+@media screen and (max-width: 1200px){
+
+    #menu-links ul li{
+        display: inline-block;
+        padding: 10px;
+        margin: 20px 10px;
+        float: none;
+    }
+}
