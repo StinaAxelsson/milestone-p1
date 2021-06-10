@@ -5,7 +5,7 @@
     margin: 0px;
     box-sizing: border-box;
     
-    overflow-wrap: normal;
+    
 }
 
 body{
@@ -265,10 +265,9 @@ hr{
     6px 6px 0px #e600ac;
     
 }
-/* -Style all the albums in a grid- */
+/* -Style all the albums in a grid/flex- */
 .grid-container {
-    display: grid;
-    width: auto;
+    display: flex;
     height: 900px;
     background-image: url(../images/music-bgn.jpg);
     background-size: cover;
@@ -279,21 +278,21 @@ hr{
     align-content: space-evenly;
     background-color: #000;
     padding: 10px;
-    grid-gap: 50px 100px;
-    grid-template-areas: 
-    "photo1 photo2 photo3"
-    "photo4 photo5 photo6";
+    flex-wrap: wrap;
+
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     padding: 10px;
+    flex-flow: row;
+
   }
   .photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
-      grid-area: photo1 photo2 photo3 photo4 photo5 photo6;
-      height: 100%;
-      width: 100%;
+      flex-direction: row;
+      height: 300px;
+      width: 300px;
       background-size: cover;
   }
   .photo1>a img {
@@ -637,11 +636,13 @@ html{
   }
 /*For medium screen sizes from 950px and down*/
 @media (max-width: 960px) {
+
 	.main-header .container {
 		justify-content: center;
 	}
     a.logo{
         align-self: center;
+        width: 100%;
     }
     .text-box{
         width: 100%;
