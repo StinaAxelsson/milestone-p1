@@ -19,6 +19,7 @@ body{
 	max-width: 100%;
 	padding: 20px;
 	margin: 0 auto;
+    flex-direction: row;
 }
 .logo img{
     max-width: 100%;
@@ -637,13 +638,10 @@ html{
 /*For medium screen sizes from 950px and down*/
 @media (max-width: 960px) {
 
-	.main-header .container {
+	.nav-container{
 		justify-content: center;
+        flex-direction: column;
 	}
-    a.logo{
-        align-self: center;
-        width: 100%;
-    }
     .text-box{
         width: 100%;
         text-align: center;
@@ -663,5 +661,19 @@ html{
         width: 80%;
         justify-content: center;
     }
-
+    .main-nav {
+        width: 100%;
+        justify-content: center;
+    }
+    .main-nav a {
+        display: flex;
+        flex-direction: column;
+        margin: 0, auto;
+    }
+    .main-nav a:hover {
+        border-top: 1px solid #ff4dd2;
+    }
+    .active{
+        border-top: 1px solid #ff4dd2;
+    }
 }
