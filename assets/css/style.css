@@ -268,7 +268,16 @@ hr{
 }
 /* -Style all the albums in a grid/flex- */
 .grid-container {
-    display: flex;
+
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+        background-image: url(../images/music-bgn.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    /*display: flex;
     height: 900px;
     background-image: url(../images/music-bgn.jpg);
     background-size: cover;
@@ -280,6 +289,8 @@ hr{
     background-color: #000;
     padding: 10px;
     flex-wrap: wrap;
+    */
+    
 
   }
   .grid-item {
@@ -287,14 +298,13 @@ hr{
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     padding: 10px;
-    flex-flow: row;
-
+    height: 20rem;
+    width: 20rem;
+    margin: 0 auto;
   }
   .photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
-      flex-direction: row;
-      height: 300px;
-      width: 300px;
-      background-size: cover;
+    background-size: cover;
+      
   }
   .photo1>a img {
     object-fit: cover;
@@ -638,7 +648,7 @@ html{
 /*For medium screen sizes from 950px and down*/
 @media (max-width: 960px) {
 
-	.nav-container{
+    .nav-container{
 		justify-content: center;
         flex-direction: column;
 	}
@@ -677,3 +687,10 @@ html{
         border-top: 1px solid #ff4dd2;
     }
 }
+@media (min-width: 600px) {
+    .grid-container { 
+        grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(2, 2.1fr); }
+  }
