@@ -155,41 +155,57 @@ to{
 }
 
 /*--ABOUT SECTION--*/
-
-#about{
+.about-container{
+display: flex;
+align-items: center;
+background-image: url(../images/about.jpg);
+flex-wrap: wrap;
+background-color: black;
+width: 100%;
+height: auto;
+max-height: 1000px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: #ccddff;
+margin: 0 auto;
+padding: 3em;
+}
+/*.about.container{
    background-image: url(../images/about.jpg); 
     width: 100%;
-    margin: 0 auto;
-    height: 100%;
+    max-height: 900px;
+    height: auto;
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.about-container{
-    width: 100%;
-    height: 700px;
-}
-.welcome h2{
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Audiowide', cursive;
-    padding: 20px 0;
-    margin-top: 20px;
-    color: #000;
+    background-attachment: fixed;*/
 
+
+.welcome {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome h2{
+    font-size: 40px;
+    font-family: 'Audiowide', cursive; 
+    color: #000;
     text-shadow: -1px -1px 0px #99bbff,
     3px 3px 0px #e600ac,
     6px 6px 0px #99bbff;
 }
 
 .text-box{
-    width: 45%;
-    display: inline-block;
-    margin: 20px 50px;
-    padding: 0px 5px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin: 2em 4em;
+    padding: 0em 2em;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -203,16 +219,16 @@ hr{
     margin: 20px 0px;
 }
 .about-image{
-    display: inline-block;
-    float: right;
+    display: block;
+    float: none;
     margin: 30px 75px;
     border: 1px solid black;
     border-radius: 50%;
     padding: 10px;
 }
 .tommy-picture{
-    width: 300px;
-    height: 300px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
 }
 .booking-container{
@@ -745,7 +761,7 @@ html{
       background-color: #000;
   }
 /*For medium screen sizes from 950px and down*/
-@media (max-width: 960px) {
+@media screen and (max-width: 960px){
 
     .nav-container{
 		justify-content: center;
@@ -764,12 +780,16 @@ html{
         justify-content: center;
     }
     #about{
-        height: 1200px;
+        height: 1000px;
     }
-    .contact-btn{
-        width: 80%;
-        justify-content: center;
+    .booking-container{
+            
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
     }
+
     .main-nav {
         width: 100%;
         justify-content: center;
@@ -792,12 +812,19 @@ html{
     }
     
 }
-@media screen and (min-width 400px){
+@media screen and (min-width: 370px) and (max-width: 425px){
 
     .grid-container{
-        grid-template-columns: repeat(auto-fit, 8rem);
+        grid-template-columns: repeat(auto-fit, 10rem);
         justify-content: center;
         column-gap: 1rem;
+        }
+        .booking-container{
+            
+            text-align: center;
+            width: 100%;
+            margin-left: 0px;
+            padding: 0px;
         }
     }
 
