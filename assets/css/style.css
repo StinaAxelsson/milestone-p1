@@ -267,7 +267,67 @@ hr{
     
 }
 /* -Style all the albums in a grid/flex- */
-.grid-container {
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 5rem, 20rem));
+    justify-content: center;
+    grid-template-rows: 3;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    
+    
+}
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 1.5%;
+    max-height: 20rem;
+    max-width: 20rem;
+    position: relative;
+    margin: 0.5rem;
+    
+}
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+    background-size: cover;
+}
+.photo1>a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .photo2>a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .photo3>a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .photo4>a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .photo5>a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .photo6>a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover, .photo6:hover{
+    background-color: #e600ac;
+    opacity: 0.7;
+  }
+
+/*.grid-container {
 
         width: 100%;
         margin: 0 auto;
@@ -290,7 +350,7 @@ hr{
     padding: 10px;
     flex-wrap: wrap;
     */
-    
+  /*  
 
   }
   .grid-item {
@@ -687,10 +747,3 @@ html{
         border-top: 1px solid #ff4dd2;
     }
 }
-@media (min-width: 600px) {
-    .grid-container { 
-        grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (min-width: 900px) {
-    .cards { grid-template-columns: repeat(2, 2.1fr); }
-  }
