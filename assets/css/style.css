@@ -66,19 +66,19 @@ body{
 
 /*---FIRST SECTION, BACKGROUND IMAGE---*/
 .hero-container{
-display: flex;
-align-items: center;
-background-image: url(../images/wiz_bakgrund_blurr.jpg);
-flex-wrap: wrap;
-background-color: black;
-width: 100%;
-height: auto;
-max-height: 700px;
-background-repeat: no-repeat;
-background-size: cover;
-background-color: #ccddff;
-margin: 0 auto;
-padding: 3em;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/wiz_bakgrund_blurr.jpg);
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccddff;
+    margin: 0 auto;
+    padding: 3em;
 }
 
 .latest-album {
@@ -125,7 +125,7 @@ to{
     justify-content: center;
 }
 
-.left-btn, .right-btn{
+.btn-container > a{
     background-color: rgba(64, 64, 64, 0.6); 
     border: 1px solid white; 
     padding: 9px 10px; 
@@ -133,14 +133,14 @@ to{
     width: auto;
     border-radius: 5px;
 }
-.left-btn a{
+.left-btn {
     font-family: 'Audiowide', cursive;
     color: white;
     text-decoration: none;
     font-size: 28px;
     text-align: center;
 }
-.right-btn a{
+.right-btn {
     font-family: 'Audiowide', cursive;
     color: white;
     text-decoration: none;
@@ -231,7 +231,7 @@ hr{
     width: 15%;
     border-radius: 5px;
 }
-.contact-btn a{
+.booking-container > a{
     font-family: 'Audiowide', cursive;
     color: white;
     text-decoration: none;
@@ -554,7 +554,7 @@ td > i{
     width: 15%;
     border-radius: 5px;
 }
-.contact-btn a{
+.booking-container > a{
     font-family: 'Audiowide', cursive;
     color: white;
     text-decoration: none;
