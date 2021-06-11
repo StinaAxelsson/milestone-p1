@@ -252,13 +252,14 @@ hr{
     top: 0;
     height: 75px;
     background-color: black;
+    
 }
 
 .music-header h2{
     font-family: 'Audiowide', cursive;
     font-size: 40px;
     text-align: center;
-    padding-top: 30px;
+    padding: 2%;
     color: white;
 
     text-shadow: -1px -1px 0px #800060,
@@ -270,21 +271,29 @@ hr{
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax( 5rem, 20rem));
+    
     justify-content: center;
-    grid-template-rows: 3;
     row-gap: 3rem;
     column-gap: 3rem;
-    
-    
+    width: 100%;
+    height: 900px;
+    grid-template-columns: 18rem 18rem 18rem;
+    grid-template-rows: 18rem 18rem;
+    align-content: space-around;
+    background-image: url(../images/music-bgn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-areas: 
+    "photo1 photo2 photo3"
+    "photo3 photo4 photo6";
 }
 .grid-item{
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     padding: 1.5%;
-    max-height: 20rem;
-    max-width: 20rem;
+    width: fit-content;
+    height: fit-content;
     position: relative;
     margin: 0.5rem;
     
@@ -326,6 +335,36 @@ hr{
     background-color: #e600ac;
     opacity: 0.7;
   }
+  .grid-container p{
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.grid-text{
+    color: white;
+    text-align: center;
+    bottom: 0;
+    height: 75px;
+    background-color: black;
+    padding: 10px;
+}
+.spotify-list{
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    padding: 0px 20px 40px 20px;
+}
+.spotify-list iframe{
+    display: block;
+    max-width: 500px;
+    width: 50%;
+    text-align: center;
+    height: 380px;
+    margin: 0px auto 0px auto;
+    border-radius: 5px;
+
+}
 
 /*.grid-container {
 
@@ -745,5 +784,19 @@ html{
     }
     .active{
         border-top: 1px solid #ff4dd2;
+    }
+    .grid-container{
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 16rem));
+    }
+    
+}
+@media screen and (max-width 600px){
+
+    .grid-container{
+        grid-template-columns: repeat(auto-fit, 5rem);
+    }
+    .grid-item{
+        max-width: 5rem;
+        max-height: 5rem;
     }
 }
