@@ -156,20 +156,20 @@ to{
 
 /*--ABOUT SECTION--*/
 .about-container{
-display: flex;
-align-items: center;
-background-image: url(../images/about.jpg);
-flex-wrap: wrap;
-background-color: black;
-width: 100%;
-height: auto;
-max-height: 1000px;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-background-color: #ccddff;
-margin: 0 auto;
-padding: 3em;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/about.jpg);
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ccddff;
+    margin: 0 auto;
+    padding: 3em;
 }
 /*.about.container{
    background-image: url(../images/about.jpg); 
@@ -218,18 +218,33 @@ padding: 3em;
 hr{
     margin: 20px 0px;
 }
-.about-image{
-    display: block;
-    float: none;
-    margin: 30px 75px;
+.about-image-one, .about-image-two{
+
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
     border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 5px;
     padding: 10px;
 }
-.tommy-picture{
+.tommy-picture-one{
+    
+    justify-content: center;
+    align-items: center;
     width: 20rem;
     height: 20rem;
-    border-radius: 50%;
+    border-radius: 5px;
+    
+}
+.tommy-picture-two{
+   
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
 }
 .booking-container{
     display: flex;
@@ -779,9 +794,7 @@ html{
         width: auto;
         justify-content: center;
     }
-    #about{
-        height: 1000px;
-    }
+
     .booking-container{
             
         text-align: center;
@@ -826,5 +839,6 @@ html{
             margin-left: 0px;
             padding: 0px;
         }
+
     }
 
