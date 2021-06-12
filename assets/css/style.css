@@ -159,94 +159,71 @@ to{
     width: 100%;
     height: fit-content;
 }
-
-.about-container{
-    display: grid;
-    width: 100%;
-    text-align: center;
-    height: fit-content;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "about-image-one about-image-one about-image-three about-image-three about-image-two about-image-two";
-}
 #about-header{
-    grid-area: about-header;
-}
-#about-image-one{
-    grid-area: about-image-one;
-    margin: auto;
-}
-#about-image-two{
-    grid-area: about-image-two;
-    
-}
- #about-image-three{
-    grid-area: about-image-three;
-}
-
-.tommy-picture-one, .tommy-picture-two{
-    width: 27em;
-    height: 27em;
-    
-}
-.tommy-picture-three{
-    height: 27em;
-    width: auto;
-   
-}
-.tommy-picture-one, .tommy-picture-two, .tommy-picture-three{
-    
-}
-
-#text-box{
-    grid-area: text-box;
-
-}
-
-/*.about-container{
-    display: flex;
-    align-items: center;
-    background-image: url(../images/about.jpg);
-    flex-wrap: wrap;
-    background-color: black;
     width: 100%;
-    height: auto;
-    max-height: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #ccddff;
-    margin: 0 auto;
-    padding: 3em;
-}
-/*.about.container{
-   background-image: url(../images/about.jpg); 
-    width: 100%;
-    max-height: 900px;
-    height: auto;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
-
-/*
-.welcome {
-    width: 100%;
+    padding: 2%;
+    background-color: #000;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+.about-image{
+    padding: 0.5%;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin: 0.1rem;
+}
 
-.welcome h2{
+.about-container{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 460px;
+    background-color: black;
+    grid-template-columns: 28em 37em 28em;
+    align-content: space-around;
+    grid-template-areas: 
+    "tommy1 tommy3 tommy2";
+}
+.tommy1{grid-area: tommy1;}
+.tommy2{grid-area: tommy2;}
+.tommy3{grid-area: tommy3;}
+
+.tommy1 > img {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  .tommy2 > img {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  .tommy3 >  img {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  /*.tommy1, .tommy2, .tommy3 {
+    background-size: cover;*/
+
+#about-header h2{
     font-size: 40px;
     font-family: 'Audiowide', cursive; 
-    color: #000;
+    color: #fff;
     text-shadow: -1px -1px 0px #99bbff,
     3px 3px 0px #e600ac,
     6px 6px 0px #99bbff;
 }
-
+#text-box{
+    
+}
+/*
 .text-box{
     width: 100%;
     display: block;
@@ -267,34 +244,7 @@ to{
 hr{
     margin: 20px 0px;
 }
-.about-image-one, .about-image-two{
 
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-}
-.tommy-picture-one{
-    
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 5px;
-    
-}
-.tommy-picture-two{
-   
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 5px;
-}
 .booking-container{
     display: flex;
     text-align: left;
@@ -351,7 +301,6 @@ hr{
 
 .grid-container{
     display: grid;
-    
     justify-content: center;
     row-gap: 1rem;
     column-gap: 3rem;
