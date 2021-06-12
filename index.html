@@ -17,15 +17,16 @@
             <a href="index.html" title="Back to start" class="logo">
                 <img src="assets/images/wiz_logga_black.jpg" alt="logo with the text WIZACK TWIZACK">
             </a>
-        <nav class="main-nav">
-            <ul class="main-nav-list">
-                <li><a href="index.html" class="active">NEW</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#music">MUSIC</a></li>
-                <li><a href="#events">EVENTS</a></li>
-                <li><a href="#contact">CONTACT ME</a></li>
-            </ul>
-        </nav>
+        <div class="main-nav" id="myTopnav">
+                <a href="#index.html" class="active">NEW</a>
+                <a href="#about">ABOUT</a>
+                <a href="#music">MUSIC</a>
+                <a href="#events">EVENTS</a>
+                <a href="#contact">CONTACT ME</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i> Menu
+                  </a>
+                </div>
     </div>
 </header>
     <section id="background-image">
@@ -257,6 +258,16 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "main-nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "main-nav";
+          }
+        }
+        </script>
 </body>
 
 </html>

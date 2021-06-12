@@ -36,33 +36,33 @@ body{
     width: 100%;
 }
 
-.main-nav ul {
+.main-nav  {
 	margin: 1em 0 .5em;
 	text-align: center;
+    display: inline;
 }
-.main-nav li {
-	display: inline;
-}
+
 .main-nav a {
 	display: inline-block;
 	padding: .5em 1.5em;
     color: #80ccff;
     text-decoration: none;
-}
-.main-nav-list{
     font-family: 'Audiowide', cursive;
     font-size: 16px;
 }
+
 .main-nav a:hover{
     color:  #ff4dd2;
     font-size: 16px;
     border-bottom: 1px solid #ff4dd2;
 }
 .active{
-    font-size: 16px;
     color:  #ff4dd2;
     border-bottom: 1px solid #ff4dd2;
 }
+.main-nav .icon {
+    display: none;
+  }
 
 /*---FIRST SECTION, BACKGROUND IMAGE---*/
 .hero-container{
@@ -718,6 +718,26 @@ html{
     }
     
 }
+@media screen and (max-width: 600px) {
+    .main-nav a:not(:first-child) {display: none;}
+    .main-nav a.icon {
+      float: center;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .main-nav.responsive {position: relative;}
+    .main-nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .main-nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 @media screen and (min-width: 370px) and (max-width: 425px){
 
     .grid-container{
