@@ -860,7 +860,8 @@ html{
 }
 
 #events{
-    background-size: cover;
+    background-image: url(../images/mapp1.jpg);
+    background-size: contain;
 }
     
 
