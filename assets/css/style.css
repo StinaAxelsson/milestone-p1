@@ -65,9 +65,15 @@ body{
   }
 
 /*---FIRST SECTION, BACKGROUND IMAGE---*/
+#background-image{
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+}
 .hero-container{
     display: flex;
     align-items: center;
+    flex-direction: row;
     background-image: url(../images/wiz_bakgrund_blurr.jpg);
     flex-wrap: wrap;
     background-color: black;
@@ -184,6 +190,7 @@ to{
     width: 100%;
     overflow: hidden;
     height: fit-content;
+    position: relative;
 }
 #about-header{
     width: 100%;
@@ -193,7 +200,62 @@ to{
     align-items: center;
     text-align: center;
 }
-.about-image{
+
+/*trying flex for images*/
+.about-grid {
+    padding: 1em;
+    
+   }
+   
+   .about-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5em;
+   }
+   
+   .about-item {
+    flex: 1 1 50%;
+    padding: 0.5em;
+   }
+   
+   .item-inner {
+    background-size: cover;
+    background-image: url(../images/flex1.jpg);
+    padding-top: calc(100% / (16/9));
+   }
+  
+   .about-item:nth-child(2) .item-inner {
+    background-image: url(../images/flex2.jpg);
+   }
+   .about-item:nth-child(3) .item-inner {
+    background-image: url(../images/flex3.jpg);
+   }
+   .about-item:nth-child(4) .item-inner {
+    background-image: url(../images/flex4.jpg);
+   }
+
+   @media screen and (min-width: 480px) {
+    .about-item {
+     flex: 1 1 100%;
+     padding: 0.2em;
+     
+    }
+
+
+   }
+   
+   @media screen and (min-width: 768px) {
+    .about-item {
+     flex: 1 1 50%;
+    }
+   }
+   
+   @media screen and (min-width: 980px) {
+    .about-item {
+     flex: 1 1 50%;
+    }
+   }
+/*.about-image{
     padding: 0.5%;
     width: fit-content;
     height: fit-content;
@@ -235,7 +297,7 @@ to{
     width: 100%;
     height: auto;
     border-radius: 5px;
-  }
+  }*/
 
 #about-header h2{
     font-size: 40px;
@@ -752,7 +814,7 @@ html{
     }
 
 /*about*/
-.about-container{
+/*.about-container{
     background-image: url(../images/tommy7.jpg);
     background-size: cover;
     background-position-x: center;
@@ -763,8 +825,8 @@ html{
     display: none;
 }
 .tommy2, .tommy1{
-    display: none;
-}
+    display: none;*/
+
 .about-text{
     font-size: 18px;
     margin: 1em;
@@ -787,7 +849,7 @@ html{
     justify-content: center;
     height: max-content;
 }
-
+/*
 @media screen and (max-width: 800px){
     .about-container{
         grid-template-columns: repeat(auto-fit, 30rem);
@@ -799,12 +861,14 @@ html{
         display: none;
     }
 
-}
+}*/
 
 @media screen and (min-width: 370px) and (max-width: 600px){
 
     /*about*/
-.about-container{
+
+
+/*    .about-container{
     grid-template-columns: repeat(auto-fit, 18rem);
     height: max-content;
 }
@@ -812,8 +876,13 @@ html{
     font-size: 30px;
 }
 .tommy2, .tommy1{
-    display: none;
-}
+    display: none;*/
+    .about-item {
+        flex: 1 1 100%;
+        padding: 0.1em;
+        
+       }
+
 #text-box{
     height: 120vh;
 }  
