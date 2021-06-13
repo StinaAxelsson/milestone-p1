@@ -79,7 +79,6 @@ body{
     background-color: black;
     width: 100%;
     height: auto;
-    max-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ccddff;
@@ -201,7 +200,7 @@ to{
     text-align: center;
 }
 
-/*trying flex for images*/
+/*flex for images*/
 .about-grid {
     padding: 1em;
     
@@ -255,49 +254,6 @@ to{
      flex: 1 1 50%;
     }
    }
-/*.about-image{
-    padding: 0.5%;
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    margin: 0.1rem;
-}
-
-.about-container{
-    display: grid;
-    
-    overflow: hidden;
-    justify-content: center;
-    width: 100%;
-    height: 460px;
-    background-color: black;
-    grid-template-columns: 28em 37.5em 28em;
-    align-content: space-around;
-    grid-template-areas: 
-    "tommy1 tommy3 tommy2";
-}
-.tommy1{grid-area: tommy1;}
-.tommy2{grid-area: tommy2;}
-.tommy3{grid-area: tommy3;}
-
-.tommy1 > img {
-    
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-  }
-  .tommy2 > img {
-    
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-  }
-  .tommy3 >  img {
-    
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }*/
 
 #about-header h2{
     font-size: 40px;
@@ -309,7 +265,7 @@ to{
 }
 #text-box{
     width: 100%;
-    height: 100vh;
+    
     background-image: url(../images/about.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -472,7 +428,8 @@ hr{
     height: 35vh;
     border-radius: 5px;
     margin: 0 auto;
-}}
+}
+}
 
 
 .spotify-list iframe{
@@ -734,7 +691,7 @@ footer{
     color: black;
 }
 .social-links i:hover{
-    color: #e600ac;99bbff
+    color: #e600ac;
 }
 .footer-text{
     text-align: center;
@@ -864,19 +821,6 @@ html{
 }*/
 
 @media screen and (min-width: 370px) and (max-width: 600px){
-
-    /*about*/
-
-
-/*    .about-container{
-    grid-template-columns: repeat(auto-fit, 18rem);
-    height: max-content;
-}
-#about-header h2{
-    font-size: 30px;
-}
-.tommy2, .tommy1{
-    display: none;*/
     .about-item {
         flex: 1 1 100%;
         padding: 0.1em;
@@ -943,4 +887,5 @@ html{
 
 .top {display: none;}
 
+}
 }
