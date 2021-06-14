@@ -508,11 +508,13 @@ th{
     font-size: 24px;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 td{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 td > i{
     color: #e600ac;
@@ -790,7 +792,8 @@ html{
 
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 30%;
+    background-position-y: 90%;
+    background-attachment: unset;
 }
 /*music*/
 .grid-container{
@@ -800,9 +803,9 @@ html{
 }
 /*event*/
 #events{
-    background-image: url(../images/mapp1.jpg);
-    background-size: contain;
+    background-repeat: no-repeat;
     background-position-y: 30%;
+    background-attachment: unset;
 }
 
 
@@ -817,7 +820,8 @@ html{
     height: 120vh;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 30%;
+    background-position-y: 95%;
+    background-attachment: unset;
 }  
 .grid-container{
     grid-template-columns: repeat(auto-fit, 10rem);
@@ -849,12 +853,19 @@ html{
 }
 
 #events{
-    background-image: url(../images/mapp1.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     background-position-y: 30%;
+    background-attachment: unset;
 }
-    
 
+
+td{
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    
+}
 #contact-btn{
     background-color: rgba(65, 65, 65, 0.6);
     border: 1px solid black; 
