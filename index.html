@@ -12,13 +12,15 @@
 </head>
 
 <body>
+    <!--for button to scroll to top i used code from W3school "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top"-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!--HEADER, LOGO AND MENU-->
     <header class="main-header">
         <div class="nav-container">
             <a href="index.html" title="Back to start" class="logo">
                 <img src="assets/images/wiz_logga_black.jpg" alt="logo with the text WIZACK TWIZACK">
             </a>
-            <!--ref:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav-->
+            <!--For the menu, used code from: "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav"-->
         <div class="main-nav" id="myTopnav">
                 <a href="#index.html" class="active">NEW</a>
                 <a href="#about">ABOUT</a>
@@ -97,7 +99,8 @@
         <div class="music-header">
             <h2>Music</h2>
         </div>
-        
+        <!--Reference for the grid and for make it responsive in the CSS a used help from this code "https://codepen.io/designcourse/pen/mYrxKr"
+        and this "https://codepen.io/angeladelise/pen/gOajMyG"-->
         <div class="grid-container">
             <div class="grid-item photo1">
                 <a href="https://li.sten.to/WizackTwizack" target="_blank" rel="noopener"
@@ -229,18 +232,18 @@
             <h3>Get in contact! Or intrested in booking Wizack Twizack in furure? Slide in downunder!</h3>
             <form method="POST" action="https://formdump.codeinstitute.net/" class="contact">
                 <label for="fname">Full Name: </label>
-                <input type="text" id="fname" name="fullname" class="text-input" placeholder="Steven Hawkins">
+                <input type="text" id="fname" name="fullname" class="text-input" placeholder="Your Name here" required>
 
                 <label for="mail">Email Address: </label>
-                <input type="email" id="mail" name="email" class="text-input" placeholder="steven_hawkins@gmail.com">
+                <input type="email" id="mail" name="email" class="text-input" placeholder="Your Email Address here" required>
 
                 <label for="subject">Subject</label>
-                <textarea name="subject" id="subject" class="text-input" placeholder="Write here..."></textarea>
+                <textarea name="subject" id="subject" class="text-input" placeholder="Write here..." required></textarea>
 
                 <input class="send-btn" type="submit" value="Send!">
             </form>
         </div>
-        <a href="#top"><button class="top">Top</button></a>
+        
     </section>
     <!--FOOTER-->
     <footer>
@@ -269,7 +272,10 @@
     </footer>
 
     <!--SCRIPT and javascript-->
+
+    <!--For Fonts i used every font from fontawsome-->
     <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
+    <!--Code for responsive nav menu i used code from w3school "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav" -->
     <script>
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -280,6 +286,24 @@
           }
         }
         </script>
+        <!--for button to scroll to top i used code from W3school "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top"-->
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+  
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
 </body>
 
 </html>
