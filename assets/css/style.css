@@ -524,7 +524,6 @@ td > i{
     display: block;
     text-align: center;
     width: 100%;
-    margin-left: 30px;
     padding: 20px;
 }
 
@@ -883,7 +882,7 @@ td{
     color: #99bbff;
 }
 
-.top {display: none;}
+#myBtn {display: none;}
 
 }
 }
