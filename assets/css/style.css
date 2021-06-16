@@ -85,12 +85,13 @@ body{
     margin: 0 auto;
     padding: 3em;
 }
-.out-now{
+.out-now h2{
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
 }
 
 .latest-album {
@@ -429,7 +430,6 @@ hr{
     border-radius: 5px;
     margin: 0 auto;
 }
-}
 
 
 .spotify-list iframe{
@@ -735,13 +735,13 @@ html{
 /*For medium screen sizes from 950px and down*/
 @media screen and (max-width: 960px){
 
+    /*Menu*/
     .nav-container{
 		justify-content: center;
         flex-direction: column;
 	}
     .main-nav a:not(:first-child) {display: none;}
     .main-nav a.icon {
-      float: center;
       display: block;
     }
     .main-nav.responsive {position: relative;}
@@ -762,7 +762,7 @@ html{
     .main-nav a {
         display: flex;
         flex-direction: column;
-        margin: 0, auto;
+        margin: 0 auto;
     }
     .main-nav a:hover {
         border-top: 1px solid #ff4dd2;
@@ -770,42 +770,37 @@ html{
     .active{
         border-top: 1px solid #ff4dd2;
     }
-/*about*/
+    /*about*/
+    .about-text{
+        font-size: 18px;
+        margin: 1em;
+        padding: 1%;
+    }
 
-.about-text{
-    font-size: 18px;
-    margin: 1em;
-    padding: 1%;
-
-}
-
-
-.booking-container{
-            
-    text-align: center;
-    width: 100%;
-    margin-top: 5em;
-    padding: 2%;
-}
-#text-box{
-
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 90%;
-    background-attachment: unset;
-}
-/*music*/
-.grid-container{
-     grid-template-columns: repeat(auto-fit, 12rem);
-    justify-content: center;
-    height: max-content;
-}
-/*event*/
-#events{
-    background-repeat: no-repeat;
-    background-position-y: 30%;
-    background-attachment: unset;
-}
+    .booking-container{      
+        text-align: center;
+        width: 100%;
+        margin-top: 5em;
+        padding: 2%;
+    }
+    #text-box{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: 90%;
+        background-attachment: unset;
+    }
+    /*music*/
+    .grid-container{
+        grid-template-columns: repeat(auto-fit, 12rem);
+        justify-content: center;
+        height: max-content;
+    }
+    /*event*/
+    #events{
+        background-repeat: no-repeat;
+        background-position-y: 30%;
+        background-attachment: unset;
+    }
 
 
 @media screen and (min-width: 320px) and (max-width: 600px){
