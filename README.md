@@ -140,4 +140,17 @@ Here is my live link deployed: stinaaxelsson.github.io/milestone-p1/
 <hr>
 
 # Credits
-At the beginning of coding this site, I thought that I didnt gonna 
+At the very start of coding this site, I thought that I didnt gonna need help from google or elsewhere. But little did I know. Sure I used alot of helt from the HTML essensials and CSS essensials from the Code Institute learning base that I just went throu. And also the Love running code helped me get how to structure the code and some of the basic coding was written with help of these.
+But when thing started to get harder, for example the music section to make it look good. Google was my best friend. And of course youtube, that helped me make this site both looking good and beeing fully responsive.
+
+## Content
+* Alot of the text in the about section is taken from https://soundcloud.com/wizack_twizack
+* The Contact form styling is made with help from the "Love running" project.
+* The Icons in the footer and event section is taken from https://fontawesome.com/
+* Fonts that I use, I took from https://fonts.google.com/
+
+## Media
+* All of the images of music-albums and of Tommy I got sent from my brother or taken from his other sites and social media, like soundcloud, facebook and google.
+* The background for the music section I found on google images (found the link)
+* The background of the event section i found at google images (link)
+* Spotify music player I embedded from Spotify.
