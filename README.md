@@ -26,6 +26,7 @@ This project is developed as my first Milestone project assignment at the Code I
 * Technologies Used
 * Testing
   * validator Testing
+  * Fixed errors
   * Unfixed Bugs
 * Deployment
 * Credits
@@ -110,4 +111,13 @@ languages HTML CSS
 <hr>
 
 # Testing
+For testing my website, I have used Chrome DevTools in order to see how it works in smaller screens and devices. It has been a great tool to work with and to find errors or bugs with along the road. 
+When I started write code, I only thought of how it looked on my desktop screen. When I was done with the website and it looked goot on my desktop, I started to make it responsive and that took alot of time and energy. I had to change a lot of my written code to make it responsive and look good.
+in addition to devtools, my boyfriend and my mother also got to look at the website via the live link in the mobile to help me find bugs, which has been very helpful.
+
+* My biggest bug problems was to make the header responsive, I had to change my code almost compeletly for it to work and look good in any device. (Thank god for flexbox and why didn't I just use it in the beginning) 
+* My second biggest bug problem was a huge margin space on the right when I resized the screen smaller. I was trying overflow:hidden and just did't get where the problem came from. Thanks to tutors help I found out it was my grid at the music section. The grid that I coded was not responsive and that takes us to my third biggest bug problem.
+I had to rewrite this section many times until I find a very good tutorial at youtube that saved me.
+* I got a fourth big bug problem too. The about section. My mentor wantet me to have everything on the site centered to make it look better. And in the beginning I had the about text floating left and a image floating at the right. To make it look good all centered I had to change and put the image at the start on top. And for it too look good I had to add more photos to make it almost like a gallery. And of course make it responsive. That part gave me a headache for hours until I find a really helpful tutorial again that solved my problem.
+* Other than this three bug problems, I had alot of problems with the height of my sections. When resized it to smaller screen the content in the sections got hidden behind the next sections. Thanks to Devtool, after many hours of head scrathing I found the problem and It was finally completed in both bigger screens and the absolut smallest.
 
