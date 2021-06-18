@@ -9,7 +9,8 @@ This project is developed as my first Milestone project assignment at the Code I
 
 -input screenshot of website in every screen sizes-
 <hr>
-# Index 
+
+# Content
 
 * Project Description
 * UX
@@ -41,4 +42,16 @@ This is a one-page scroll website where all information is on one page, but divi
   * The about section provides the user with information about who the website is about along with photos of the main character. 
   * Below the text about the main character, there is a button linked to the contact form on the website to be able to quickly fill in the form if you as a user are interested in getting in touch to, for example, book for future gigs.
 * <b>Music Section</b>
-  * This section 
+  * This section contains clickable images on his album, where each album can be clicked on and you will come to a new page where you can choose where you want to stream the album. Under each picture, it says what the album is called and what year they were released. As well as a text that explains that there is more music to listen to, on his music services.
+  * There is an embedded media player from Spotify with his 10 most played songs at the bottom of the section that can be listened to directly on the website.
+* <b>Event Section</b>
+  * This section is for listing the upcoming dates he will be playing on and I chose to do them with a form. It easily shows where and when.
+  * The background is a map of Europe as it is in Europe that his gigs would be, to give the user a sense of what the section wants to give for information to the user
+  * A text box with information about Covid and current circumstances under the event list. As we do not know yet if the gigs will take place.
+* <b>Contact Section</b>
+  * A form to easily contact Wizack Twizack with general questions or for future bookings. Where the user is required to fill in the name and email address, as well as their question and then click submit. 
+* <b>Footer</b>
+  * At the bottom is the footer. Contains icons for all social media Wizack Twizack is on. Clicking on an icon opens a new tab on the selected social media. Easy for the user to follow him on these social media and stay up to date.
+  * Also an email address if you as a user prefer to send a regular email instead of the form. Along with a copywright icon that shows that the content on the website may not be used for external use.
+## Features Left to Implement
+* 
