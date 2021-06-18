@@ -47,7 +47,19 @@ When I planned out the design, I was serching around the internet for some inspi
 ## Colors
 I used Wizack Twizacks lates album-cover as a theme throuh out the whole website. The color path I chose to work with was: lightblue, pink, purple, white and black. And feel like it goes very well together and standing out and easy for eyes to read.
 ## Fonts
-My main font
+I choosed to go with two different Fonts. 'Montserrat' for all of the text on the site, and 'Audiowide' for all headlines, navigationbar and buttons. I think that fit the theme and goes well with the design. Easy to read the text, and for rubrics its nice to have something bolder that catch your eye.
+## Structure
+This is as I have written before, a one-page scrolling website, so it follows that structure.
+We have the header at the top, that contains the logo at the left corner and navigation links horisontally at the right with the "NEW, ABOUT, MUSIC, EVENT, CONTACT" in that order.
+Down under we have the Hero section (NEW). Contains the image of the latest album that zooms in. Below the album you got a text that explanes what we see, and that you can choose to listen to it right now with help of the button links that will takes the user to a new tab when click.
+Right below we have the About section, that tells the user who this site is about and give us the relevant information for the coming sections. We have a button that links the user to the contact form, if you wonder anything or just want to get in touch.
+Below that we have the Music section starting. With another color theme and here you can see all of the album he have made, and if you hover over you see it change color and is clickable. When click at a album, you will be linked to a site that streams the music and it will open in a new tab.
+Also, you can if you want listen to the top 10 songs right in the section with the embedded spotify widget.
+Under the music section, we have the event section. That show us a table with places and dates when we have to expect upcoming events. With a map as a background so we can understand what its about. But for prevailing circumstances for Covid I put a textbox telling us that we are not sure if it will be possible to have the events.
+Below this event section, we have the last one, the Contact section. Here you can just fill in the form with your name and email and you question or request and press submit and send! Easy and it also contain a little information text for the user how to do it.
+At the bottom of the whole page we have the footer. Here are links to all social media and an email address to stay updated and connected. 
+
+
 # Features
 This is a one-page scroll website where all information is on one page, but divided into different sections.
 ## Existing Features
