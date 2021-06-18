@@ -26,7 +26,6 @@ This project is developed as my first Milestone project assignment at the Code I
 * Technologies Used
 * Testing
   * validator Testing
-  * Fixed errors
   * Unfixed Bugs
 * Deployment
 * Credits
@@ -120,4 +119,25 @@ in addition to devtools, my boyfriend and my mother also got to look at the webs
 I had to rewrite this section many times until I find a very good tutorial at youtube that saved me.
 * I got a fourth big bug problem too. The about section. My mentor wantet me to have everything on the site centered to make it look better. And in the beginning I had the about text floating left and a image floating at the right. To make it look good all centered I had to change and put the image at the start on top. And for it too look good I had to add more photos to make it almost like a gallery. And of course make it responsive. That part gave me a headache for hours until I find a really helpful tutorial again that solved my problem.
 * Other than this three bug problems, I had alot of problems with the height of my sections. When resized it to smaller screen the content in the sections got hidden behind the next sections. Thanks to Devtool, after many hours of head scrathing I found the problem and It was finally completed in both bigger screens and the absolut smallest.
+## Validator Testing
 
+## Unfixed bugs
+
+<hr>
+
+# Deployment
+This project was developed using the Gitpod IDE. In order to save and see what I worked with previously I always add commit messenges and then Git push to save and push it to Github.
+
+For deploy this site I had to follow this steps:
+1. Log in to my account at Github.
+2. Open the repository that I wanted to deploy.
+3. Select settings in the menu at the top and scroll down to Pages.
+4. Open the drop-down menu in the source section.
+5. Select main instead of none.
+6. Save and wait a few seconds until it deployed.
+
+Here is my live link deployed: stinaaxelsson.github.io/milestone-p1/
+<hr>
+
+# Credits
+At the beginning of coding this site, I thought that I didnt gonna 
