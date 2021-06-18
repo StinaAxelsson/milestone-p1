@@ -14,7 +14,11 @@ This project is developed as my first Milestone project assignment at the Code I
 
 * Project Description
 * UX
-* Structure
+  * Site Owner goals
+  * Design choises
+  * colors
+  * Fonts
+  * Structure
 * Wireframes
 * Features
   * Existing Features
@@ -53,5 +57,30 @@ This is a one-page scroll website where all information is on one page, but divi
 * <b>Footer</b>
   * At the bottom is the footer. Contains icons for all social media Wizack Twizack is on. Clicking on an icon opens a new tab on the selected social media. Easy for the user to follow him on these social media and stay up to date.
   * Also an email address if you as a user prefer to send a regular email instead of the form. Along with a copywright icon that shows that the content on the website may not be used for external use.
+* <b>Top button</b>
+  * I have chosen to put a "Back to Top" button in the bottom right corner. As the website is a one-page scroll website, it makes it easier for the user to easily get to the menu quickly, instead of scrolling.
 ## Features Left to Implement
+* In the Music Section, I wanted to put a media player under each album that the user can play the music directly via the website instead of just clicking and opening in the new tab. 
+* Also in the Music Section, I was planning to make a carousel for the albums. But because I have not yet learned much about javascript, it had to be a grid with the album instead.
 * 
+
+<hr>
+
+# Technologies Used
+
+https://typosaur.us/
+https://balsamiq.com/
+https://github.com/
+https://app.grammarly.com/
+https://translate.google.com/?hl=sv
+https://fontawesome.com/
+https://fonts.google.com/
+http://ami.responsivedesign.is/#
+chrome Devtool tool
+
+languages HTML CSS
+
+<hr>
+
+# Testing
+
