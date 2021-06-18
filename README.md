@@ -33,6 +33,21 @@ This project is developed as my first Milestone project assignment at the Code I
   * Media
 <hr>
 
+# UX
+This is what I have done for make the User Experience good.
+## Site Owner Goals
+1. Have a full responsive site on all different screen sizes.
+2. Make the user feel interested directly when visit my site.
+3. Have information on what the site is about easy to find.
+4. Put all of the relevant information that is about this person the website is about, on one place so his followers, listeners and producers can find what they looking for in one place.
+5. Keep a red thred throug the whole website.
+
+## Design Choises
+When I planned out the design, I was serching around the internet for some inspiration. My website is about a musician/DJ and therefore, I was looking at other famous DJs websites and found that almost every DJ had the same theme on their sites. So I used that as a template when developed this website, but of course with my own style and touch to make it stand out from the others, and made it so eye-cathing I possibly could for only using HTML and CSS.
+## Colors
+I used Wizack Twizacks lates album-cover as a theme throuh out the whole website. The color path I chose to work with was: lightblue, pink, purple, white and black. And feel like it goes very well together and standing out and easy for eyes to read.
+## Fonts
+My main font
 # Features
 This is a one-page scroll website where all information is on one page, but divided into different sections.
 ## Existing Features
