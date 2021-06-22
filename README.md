@@ -1,5 +1,5 @@
 
-# [Wizack Twizack Official Homepage](stinaaxelsson.github.io/milestone-p1/)
+# [Wizack Twizack Official Homepage](https://stinaaxelsson.github.io/milestone-p1/)
 
 # Project Description 
 
@@ -7,7 +7,7 @@
 
 This project is developed as my first Milestone project assignment at the Code Institute course I take. I chose to build my project as a One-page scrolling website to make my content on the website more effective for the user experience.
 
--input screenshot of website in every screen sizes-
+![alt](/wireframes/responsive.png)
 <hr>
 
 # Content
