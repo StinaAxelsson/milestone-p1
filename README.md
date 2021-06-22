@@ -31,6 +31,7 @@ This project is developed as my first Milestone project assignment at the Code I
 * Credits
   * Content
   * Media
+* Acknowledgements
 <hr>
 
 # UX
@@ -103,23 +104,26 @@ This is a one-page scroll website where all information is on one page, but divi
 ## Features Left to Implement
 * In the Music Section, I wanted to put a media player under each album that the user can play the music directly via the website instead of just clicking and opening in the new tab. 
 * Also in the Music Section, I was planning to make a carousel for the albums. But because I have not yet learned much about javascript, it had to be a grid with the album instead.
-* 
+
 
 <hr>
 
 # Technologies Used
 
-https://typosaur.us/
-https://balsamiq.com/
-https://github.com/
-https://app.grammarly.com/
-https://translate.google.com/?hl=sv
-https://fontawesome.com/
-https://fonts.google.com/
-http://ami.responsivedesign.is/#
-chrome Devtool tool
+* https://typosaur.us/ -Correct some grammar on the site
+* https://balsamiq.com/ -Making my wireframes
+* https://github.com/ -Making my project possible and for deploying
+* https://app.grammarly.com/ -Help getting english grammar correct
+* https://translate.google.com/?hl=sv- Helped me translate alot from Swedish to English
+* https://fontawesome.com/ -Got my icons for social media and events here
+* https://fonts.google.com/ -Found my fonts here
+* http://ami.responsivedesign.is/# -Used to the screenshot of how the site looks in different screen-sizes.
+* Chrome Devtool -My biggest helt, founding bugs, errors and a hughe help when make the site responsive.
 
-languages HTML CSS
+## Languages
+ * HTML 
+ * CSS
+ * Javascript
 
 <hr>
 
@@ -150,7 +154,7 @@ For deploy this site I had to follow this steps:
 5. Select main instead of none.
 6. Save and wait a few seconds until it deployed.
 
-Here is my live link deployed: stinaaxelsson.github.io/milestone-p1/
+Here is my live link deployed: https://stinaaxelsson.github.io/milestone-p1/
 <hr>
 
 # Credits
@@ -168,3 +172,6 @@ But when thing started to get harder, for example the music section to make it l
 * The background for the music section I found on google images (found the link)
 * The background of the event section i found at google images (link)
 * Spotify music player I embedded from Spotify.
+<hr>
+
+# Acknowledgements
