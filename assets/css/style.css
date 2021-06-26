@@ -200,6 +200,7 @@ to{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -0.5em;
+    padding: 0 9%;
    }
    
 .about-item {
@@ -211,6 +212,7 @@ to{
     background-size: cover;
     background-image: url(../images/flex3..jpg);
     padding-top: calc(100% / (16/9));
+    border-radius: 10px;
    }
   
 .about-item:nth-child(2) .item-inner {
@@ -224,52 +226,10 @@ to{
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
+   padding-bottom: 4%;
+
    
 }
-/*.text-box{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    background-image: url(../images/about.jpg);
-    flex-wrap: wrap;
-    background-color: black;
-    width: 100%;
-     height: auto;
-     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ccddff;
-    margin: 0 auto;
-    padding: 1em;
-}
-
-.photo-container{
-     display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    padding: 1em;
- }
-.about-photo{
-    justify-content: center;
-    flex-wrap: wrap;
-     margin: 2em auto;
-    height: 30rem;
-    width: 30rem;
-    padding: 0.2%;
-    border: 3px solid #ddd;
-    border-radius: 5px;
-    height: auto;
-    
-}
-.about-photo img{
-    max-width: 100%;
-    height: auto;
-}*/
 
 .about-text > h3{
     font-size: 40px;
@@ -287,15 +247,18 @@ hr{
     font-size: 18px;
     text-align: center;
     font-weight: 500;
-    margin: 1em 4em;
+    margin: 0em 4em;
     padding: 2%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
 
 .booking-container{
     text-align: center;
     width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-top: 3em;
 }
 
 .contact-btn{
@@ -811,7 +774,7 @@ html{
 .text-box{
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 95%;
+    background-position-y: 55%;
     background-attachment: unset;
 }
 .grid-container{
@@ -823,12 +786,11 @@ html{
     height: 15vh;
 
 }
-.booking-container{
-            
+.booking-container{       
     text-align: center;
     width: 100%;
     margin-left: 0px;
-    padding: 0px;
+    padding-top: 30%;
 }
 .spotify-list iframe{
     max-width: 100%;
