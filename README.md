@@ -110,19 +110,19 @@ This is a one-page scroll website where all information is on one page, but divi
 
 # Technologies Used
 
-* https://typosaur.us/ -Correct some grammar on the site
-* https://balsamiq.com/ -Making my wireframes
-* https://github.com/ -Making my project possible and for deploying
-* https://app.grammarly.com/ -Help getting english grammar correct
-* https://translate.google.com/?hl=sv- Helped me translate alot from Swedish to English
-* https://fontawesome.com/ -Got my icons for social media and events here
-* https://fonts.google.com/ -Found my fonts here
-* http://ami.responsivedesign.is/# -Used to the screenshot of how the site looks in different screen-sizes.
-* Chrome Devtool -My biggest helt, founding bugs, errors and a hughe help when make the site responsive.
+* [Typosaur](https://typosaur.us/) -Correct some grammar on the site
+* [Balsamiq](https://balsamiq.com/) -Making my wireframes
+* [GitHub](http://github.com) -Making my project possible and for deploying
+* [Grammarly](https://app.grammarly.com/) -Help getting english grammar correct
+* [Google Translate](https://translate.google.com/?hl=sv-) -Helped me translate alot from Swedish to English
+* [Font Awsome](https://fontawesome.com/) -Got my icons for social media and events here
+* [Google Fonts](https://fonts.google.com/) -Found my fonts here
+* [Am I Responsive](http://ami.responsivedesign.is/#) -Used to the screenshot of how the site looks in different screen-sizes.
+* Chrome Devtool -My biggest help, founding bugs, errors and a hughe help when make the site responsive.
 
 ## Languages
- * HTML 
- * CSS
+ * HTML5 
+ * CSS3
  * Javascript
 
 <hr>
@@ -138,6 +138,11 @@ I had to rewrite this section many times until I find a very good tutorial at yo
 * I got a fourth big bug problem too. The about section. My mentor wantet me to have everything on the site centered to make it look better. And in the beginning I had the about text floating left and a image floating at the right. To make it look good all centered I had to change and put the image at the start on top. And for it too look good I had to add more photos to make it almost like a gallery. And of course make it responsive. That part gave me a headache for hours until I find a really helpful tutorial again that solved my problem.
 * Other than this three bug problems, I had alot of problems with the height of my sections. When resized it to smaller screen the content in the sections got hidden behind the next sections. Thanks to Devtool, after many hours of head scrathing I found the problem and It was finally completed in both bigger screens and the absolut smallest.
 ## Validator Testing
+
+![alt](/wireframes/html-validator.png)
+![alt](/wireframes/css-validator.png)
+
+ [Link to my Validator CSS result](http://jigsaw.w3.org/css-validator/validator$link) 
 
 ## Unfixed bugs
 
@@ -175,3 +180,6 @@ But when thing started to get harder, for example the music section to make it l
 <hr>
 
 # Acknowledgements
+In this section, I would like to thank some people that has been to a lot of help during this project. First I like to thank my boyfriend who has been a huge support and help, even if he does not know anything about code he have helped me with a lot of support and encourage me to not give up, he have taking care of the kids so I have been able to concentrate and hand in some food at my desk while coding. Really thankful. 
+Than I want to thank my mentor for giving me many tips how I should think and rethink, and giving me feedback for my ideeas and thats have been really helpful for me. 
+And for the last, I want to thank slack community to help me everytime I have a question or just searvh old threads of similar questions and problems that I got.

@@ -39,8 +39,7 @@ body{
 	margin: 1em 0 .5em;
 	text-align: center;
     display: inline;
-    border-top: 1px solid #ff4dd2;
-    border-bottom: 1px solid #ff4dd2;
+
 }
 
 .main-nav a {
@@ -695,85 +694,87 @@ html{
 /*For medium screen sizes from 950px and down*/
 @media screen and (max-width: 960px){
 
-    /*Menu*/
-    .nav-container{
-		justify-content: center;
-        flex-direction: column;
-	}
-    .main-nav a:not(:first-child) {display: none;}
-    .main-nav a.icon {
-      display: block;
-    }
-    .main-nav.responsive {position: relative;}
-    .main-nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .main-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .main-nav {
-        width: 100%;
-        justify-content: center;
-    }
-    .main-nav a {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .main-nav a:hover {
-        border-top: 1px solid #ff4dd2;
-    }
-    .active{
-        border-top: 1px solid #ff4dd2;
-    }
-    /*about*/
-    .about-item {
-        flex: 2  50%;
-       }
+.nav-container{
+	justify-content: center;
+    flex-direction: column;
+}
+.main-nav a:not(:first-child) {display: none;}
+.main-nav a.icon {
+     display: block;
+}
+.main-nav.responsive {position: relative;}
+.main-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+.main-nav {
+    width: 100%;
+    justify-content: center;
+}
+.main-nav a {
+    display: flex;
+    flex-direction: column;
+     margin: 0 auto;
+}
+.main-nav a:hover {
+    border-top: 1px solid #ff4dd2;
+}
+.active{
+    border-top: 1px solid #ff4dd2;
+}
 
-    .about-text{
-        font-size: 18px;
-        margin: 1em;
-        padding: 1%;
-    }
+.about-item {
+    flex: 2  50%;
+}
 
-    .booking-container{      
-        text-align: center;
-        width: 100%;
-        margin-top: 5em;
-        padding: 2%;
-    }
-    #text-box{
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-y: 90%;
-        background-attachment: unset;
-    }
-    /*music*/
-    .grid-container{
-        grid-template-columns: repeat(auto-fit, 12rem);
-        justify-content: center;
-        height: max-content;
-    }
-    /*event*/
-    #events{
-        background-repeat: no-repeat;
-        background-position-y: 30%;
-        background-attachment: unset;
-    }
+.about-text{
+    font-size: 18px;
+    margin: 1em;
+    padding: 1%;
+}
 
+.booking-container{      
+    text-align: center;
+    width: 100%;
+    margin-top: 5em;
+    padding: 2%;
+}
+#text-box{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-attachment: unset;
+}
 
+.grid-container{
+    grid-template-columns: repeat(auto-fit, 12rem);
+    justify-content: center;
+    height: max-content;
+}
+
+#events{
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-attachment: unset;
+}
+/*For smaller screens like mobile*/
 @media screen and (min-width: 320px) and (max-width: 600px){
 
-    .about-item {
-        flex: 1 1  100%;
-        padding: 0.2em;
+.main-nav  {
+    border-top: 1px solid #ff4dd2;
+    border-bottom: 1px solid #ff4dd2;
+}
+.about-item {
+    flex: 1 1  100%;
+    padding: 0.2em;
             
-    }
+}
 .text-box{
     background-size: contain;
     background-repeat: no-repeat;
@@ -793,7 +794,7 @@ html{
     text-align: center;
     width: 100%;
     margin-left: 0px;
-    padding-top: 30%;
+    padding-top: 35%;
 }
 .spotify-list iframe{
     max-width: 100%;
@@ -804,14 +805,14 @@ html{
 .spotify-list{
     background-color: #000;
     width: 100%;
-    height: 35vh;
+    height: auto;
     padding: 3%;
 }
 
 #events{
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 51%;
+    background-position-y: 53%;
     background-attachment: unset;
 }
 
@@ -848,39 +849,40 @@ td{
 #myBtn {display: none;}
 
 }
-}
+/*For the smaller screens like iphone 4 and 5*/
 @media screen and (max-width: 330px){
 
-    .left-btn {
-        font-size: 20px;
+.left-btn {
+    font-size: 20px;
        
-    }
-    .right-btn {
-        font-size: 20px;
-
-    }
-
-    #text-box {
-        height: 200vh;
-    }
-
-    .grid-container{
-        grid-template-columns: repeat(auto-fit, 14rem);
-        justify-content: center;
-        column-gap: 1rem;
-    }
-    .grid-text{
-        height: 20vh;
-    
-    }
-    
-    .spotify-list{
-
-        height: auto;
-       
-    }
+}
+.right-btn {
+    font-size: 20px;
 
 }
+
+#text-box {
+    height: 200vh;
+}
+
+.grid-container{
+    grid-template-columns: repeat(auto-fit, 14rem);
+    justify-content: center;
+    column-gap: 1rem;
+}
+.grid-text{
+    height: 20vh;
+    
+}
+    
+.spotify-list{
+
+    height: auto;
+       
+}
+}
+
+/*media for the flex code I used*/
 @media screen and (min-width: 768px) {
     .about-item {
      flex: 2  50%;
@@ -889,3 +891,4 @@ td{
 
 
    
+}
