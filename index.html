@@ -22,13 +22,15 @@
             </a>
             <!--For the menu, used code from: "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav"-->
         <div class="main-nav" id="myTopnav">
-                <a href="#index.html" class="active">NEW</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i> MENU
+                </a>
+                <a href="#index.html" class="active">HOME</a>
                 <a href="#about">ABOUT</a>
                 <a href="#music" >MUSIC</a>
                 <a href="#events">EVENTS</a>
                 <a href="#contact">CONTACT ME</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i> Menu
+                    <i class="fa fa-bars"></i> MENU
                   </a>
                 </div>
     </div>
@@ -54,17 +56,7 @@
     <!--ABOUT SECTION-->
     <section id="about">
         <!--Refrence for the grid part i used: https://codepen.io/Tyler_Potts_/pen/xxbBvOy-->
-        <div class="about-grid">
-            <div class="about-inner">
-                <div class="about-item">
-                    <div class="item-inner"></div>
-                </div>
-                <div class="about-item">
-                    <div class="item-inner"></div>
-                </div>
-            </div>
-        </div>
-            <div id="text-box">
+            <div class="text-box">
                 <div class="about-text">
                 <h3>About</h3>
                 <hr>
@@ -88,6 +80,21 @@
                 <a class="contact-btn" href="#contact" rel="noopener"
                     aria-label="Link to Contact form on the site">For Booking</a>
         </div>
+        <div class="about-grid">
+            <div class="about-inner">
+                <div class="about-item">
+                    <div class="item-inner"></div>
+                </div>
+                <div class="about-item">
+                    <div class="item-inner"></div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="photo-container">
+        <div class="about-photo">
+            <img src="assets/images/flex3.jpg" width="500" height="500" alt="Picture of Wizack Twizack" > 
+        </div>
+        </div> -->
         </div>
     </section>
     <!--MUSIC SECTION-->
@@ -224,7 +231,7 @@
         </div>
         <div class="contact-form">
             <h3>Get in contact! Or interested in booking Wizack Twizack in furure? Slide in down under!</h3>
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact">
+            <form class="contact">
                 <label for="fname">Full Name: </label>
                 <input type="text" id="fname" name="fullname" class="text-input" placeholder="Your Name here" required>
 
@@ -234,7 +241,7 @@
                 <label for="subject">Subject</label>
                 <textarea name="subject" id="subject" class="text-input" placeholder="Write here..." required></textarea>
 
-                <input class="send-btn" type="submit" value="Send!">
+                <input class="send-btn" type="submit" value="Send">
             </form>
         </div>
         
@@ -269,35 +276,11 @@
 
     <!--For Fonts i used every font from fontawsome-->
     <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
-    <!--Code for responsive nav menu i used code from w3school "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav" -->
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "main-nav") {
-            x.className += " responsive";
-          } else {
-            x.className = "main-nav";
-          }
-        }
-        </script>
-        <!--for button to scroll to top i used code from W3school "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top"-->
-        <script>
-            var mybutton = document.getElementById("myBtn");
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-              } else {
-                mybutton.style.display = "none";
-              }
-            }
-  
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }
-            </script>
+    <!--My Javascripts Script for nav menu and top button-->
+    <script src="assets/js/script.js" crossorigin="anonymous"></script>
+
+       
+
 </body>
 
 </html>

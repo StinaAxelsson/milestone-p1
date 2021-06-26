@@ -190,15 +190,6 @@ to{
     height: fit-content;
     
 }
-#about-header{
-    width: 100%;
-    padding: 2%;
-    background-color: #000;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 /*flex for images*/
 .about-grid {
     padding: 1em;
@@ -218,36 +209,75 @@ to{
    
 .item-inner {
     background-size: cover;
-    background-image: url(../images/flex3.jpg);
+    background-image: url(../images/flex3..jpg);
     padding-top: calc(100% / (16/9));
    }
   
 .about-item:nth-child(2) .item-inner {
-    background-image: url(../images/flex4.jpg);
+    background-image: url(../images/flex4..jpg);
    }
 
+   .text-box{
+   width: 100%;
+   height: auto;
+   background-image: url(../images/about.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+/*.text-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(../images/about.jpg);
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+     height: auto;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccddff;
+    margin: 0 auto;
+    padding: 1em;
+}
 
-#about-header h2{
+.photo-container{
+     display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 1em;
+ }
+.about-photo{
+    justify-content: center;
+    flex-wrap: wrap;
+     margin: 2em auto;
+    height: 30rem;
+    width: 30rem;
+    padding: 0.2%;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    height: auto;
+    
+}
+.about-photo img{
+    max-width: 100%;
+    height: auto;
+}*/
+
+.about-text > h3{
     font-size: 40px;
     font-family: 'Audiowide', cursive; 
-    color: #fff;
+    color: black;
     text-shadow: -1px -1px 0px #99bbff,
-    3px 3px 0px #99bbff,
-    6px 6px 0px #e600ac;
-}
-#text-box{
-    width: 100%;
-    height: 700px;
-    background-image: url(../images/about.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.about-text h3{
-    font-size: 30px;
-    font-weight: 800; 
-    margin: 20px 0px;
-    font-family: 'Audiowide', cursive;
+    3px 3px 0px #e600ac,
+    6px 6px 0px #99bbff;
 }
 hr{
     margin: 1em 4em;
@@ -593,7 +623,7 @@ form{
 }
 .text-input{
     background: transparent;
-    color: black;
+    color: white;
     width: 100%;
     height: 35px;
     margin: 5px 0 20px 0;
@@ -603,9 +633,7 @@ form{
 .text-input:hover{
     border-color: #99bbff;
 }
-.text-input:focus{
-    background-color: white;
-}
+
 .contact-form textarea{
     height: 150px;
     width: 100%;
@@ -614,11 +642,7 @@ form{
     padding-top: 2%;
 }
     
-::-webkit-input-placeholder{
-    color: #ffb3ec;
-    padding-left: 2%;
-    font-family: 'Montserrat';
-}
+
 
 .send-btn{
     font-family: 'Audiowide', cursive;
@@ -779,19 +803,17 @@ html{
 
 @media screen and (min-width: 320px) and (max-width: 600px){
 
-.about-item {
-    flex: 1 1  100%;
-    padding: 0.2em;
-        
-}
-
-#text-box{
-    height: 140vh;
+    .about-item {
+        flex: 1 1  100%;
+        padding: 0.2em;
+            
+    }
+.text-box{
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 95%;
     background-attachment: unset;
-}  
+}
 .grid-container{
     grid-template-columns: repeat(auto-fit, 10rem);
     justify-content: center;
@@ -894,11 +916,11 @@ td{
     }
 
 }
-
-   
-   @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .about-item {
      flex: 2  50%;
     }
    }
+
+
    
