@@ -32,12 +32,15 @@ body{
 	flex-wrap: wrap;
     background-color: black;
     width: 100%;
+
 }
 
 .main-nav  {
 	margin: 1em 0 .5em;
 	text-align: center;
     display: inline;
+    border-top: 1px solid #ff4dd2;
+    border-bottom: 1px solid #ff4dd2;
 }
 
 .main-nav a {
@@ -257,7 +260,7 @@ hr{
     text-align: center;
     width: 100%;
     margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     padding-top: 3em;
 }
 
@@ -774,7 +777,7 @@ html{
 .text-box{
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 55%;
+    background-position-y: 58%;
     background-attachment: unset;
 }
 .grid-container{
@@ -808,7 +811,7 @@ html{
 #events{
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 30%;
+    background-position-y: 51%;
     background-attachment: unset;
 }
 
