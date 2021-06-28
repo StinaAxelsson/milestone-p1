@@ -12,26 +12,26 @@ This project is developed as my first Milestone project assignment at the Code I
 
 # Content
 
-* Project Description
-* UX
-  * User stories
-  * Site Owner goals
-  * Design choises
-  * colors
-  * Fonts
-  * Structure
-* Wireframes
-* Features
-  * Existing Features
-  * Features Left to Implement
-* Technologies Used
-* Testing
-  * validator Testing
-* Deployment
-* Credits
-  * Content
-  * Media
-* Acknowledgements
+* [Project Description](https://github.com/StinaAxelsson/milestone-p1#project-description)
+* [UX](https://github.com/StinaAxelsson/milestone-p1#ux)
+  * [User stories](https://github.com/StinaAxelsson/milestone-p1#user-stories)
+  * [Site Owner goals](https://github.com/StinaAxelsson/milestone-p1#site-owner-goals)
+  * [Design choises](https://github.com/StinaAxelsson/milestone-p1#design-choises)
+  * [Colors](https://github.com/StinaAxelsson/milestone-p1#colors)
+  * [Fonts](https://github.com/StinaAxelsson/milestone-p1#fonts)
+  * [Structure](https://github.com/StinaAxelsson/milestone-p1#structure)
+* Wireframes [GitHub](http://github.com)
+* [Features](https://github.com/StinaAxelsson/milestone-p1#features)
+  * [Existing Features](https://github.com/StinaAxelsson/milestone-p1#existing-features)
+  * [Features Left to Implement](https://github.com/StinaAxelsson/milestone-p1#features-left-to-implement)
+* [Technologies Used](https://github.com/StinaAxelsson/milestone-p1#technologies-used)
+* [Testing](https://github.com/StinaAxelsson/milestone-p1#testing)
+  * [Validator Testing](https://github.com/StinaAxelsson/milestone-p1#validator-testing)
+* [Deployment](https://github.com/StinaAxelsson/milestone-p1#deployment)
+* [Credits](https://github.com/StinaAxelsson/milestone-p1#credits)
+  * [Content](https://github.com/StinaAxelsson/milestone-p1#content-1)
+  * [Media](https://github.com/StinaAxelsson/milestone-p1#media)
+* [Acknowledgements](https://github.com/StinaAxelsson/milestone-p1#acknowledgements)
 <hr>
 
 # UX
@@ -117,7 +117,12 @@ This is a one-page scroll website where all information is on one page, but divi
 
 # Technologies Used
 
-* [Typosaur](https://typosaur.us/) -Correct some grammar on the site
+## Languages
+ 1. HTML5 
+ 2. CSS3
+ 3. Javascript
+
+## Other programmes
 * [Balsamiq](https://balsamiq.com/) -Making my wireframes
 * [GitHub](http://github.com) -Making my project possible and for deploying
 * [Grammarly](https://app.grammarly.com/) -Help getting english grammar correct
@@ -127,10 +132,7 @@ This is a one-page scroll website where all information is on one page, but divi
 * [Am I Responsive](http://ami.responsivedesign.is/#) -Used to the screenshot of how the site looks in different screen-sizes.
 * Chrome Devtool -My biggest help, founding bugs, errors and a hughe help when make the site responsive.
 
-## Languages
- * HTML5 
- * CSS3
- * Javascript
+
 
 <hr>
 
@@ -151,7 +153,6 @@ I had to rewrite this section many times until I find a very good tutorial at yo
 
  [Link to my Validator CSS result](http://jigsaw.w3.org/css-validator/validator$link) 
 
-## Unfixed bugs
 
 <hr>
 
