@@ -14,6 +14,7 @@ This project is developed as my first Milestone project assignment at the Code I
 
 * Project Description
 * UX
+  * User stories
   * Site Owner goals
   * Design choises
   * colors
@@ -26,7 +27,6 @@ This project is developed as my first Milestone project assignment at the Code I
 * Technologies Used
 * Testing
   * validator Testing
-  * Unfixed Bugs
 * Deployment
 * Credits
   * Content
@@ -36,6 +36,13 @@ This project is developed as my first Milestone project assignment at the Code I
 
 # UX
 This is what I have done for make the User Experience good.
+
+## User Stories
+1. When visit the site, as a user I wants a site that is fully responsive in all screen sizes.
+2. I want a site that is easy to understand how to navigate and find information of what I looking for.
+3. I want a site that is nice and tidy and easy-to-read.
+4. I want a site that I easy can find where to contact.
+5. I want a site that I easy can find links to all of the social media to follow.
 ## Site Owner Goals
 1. Have a full responsive site on all different screen sizes.
 2. Make the user feel interested directly when visit my site.
@@ -181,5 +188,5 @@ But when thing started to get harder, for example the music section to make it l
 
 # Acknowledgements
 In this section, I would like to thank some people that has been to a lot of help during this project. First I like to thank my boyfriend who has been a huge support and help, even if he does not know anything about code he have helped me with a lot of support and encourage me to not give up, he have taking care of the kids so I have been able to concentrate and hand in some food at my desk while coding. Really thankful. 
-Than I want to thank my mentor for giving me many tips how I should think and rethink, and giving me feedback for my ideeas and thats have been really helpful for me. 
+Than I want to thank my mentor Oluwafemi Medale for giving me many tips how I should think and rethink, and giving me feedback for my ideeas and thats have been really helpful for me. 
 And for the last, I want to thank slack community to help me everytime I have a question or just searvh old threads of similar questions and problems that I got.
