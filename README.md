@@ -25,6 +25,8 @@ This project is developed as my first Milestone project assignment at the Code I
   * [Existing Features](https://github.com/StinaAxelsson/milestone-p1#existing-features)
   * [Features Left to Implement](https://github.com/StinaAxelsson/milestone-p1#features-left-to-implement)
 * [Technologies Used](https://github.com/StinaAxelsson/milestone-p1#technologies-used)
+  * [Languages](https://github.com/StinaAxelsson/milestone-p1#languages)
+  * [Other programmes](https://github.com/StinaAxelsson/milestone-p1#other-programmes)
 * [Testing](https://github.com/StinaAxelsson/milestone-p1#testing)
   * [Validator Testing](https://github.com/StinaAxelsson/milestone-p1#validator-testing)
 * [Deployment](https://github.com/StinaAxelsson/milestone-p1#deployment)
@@ -54,9 +56,7 @@ This is what I have done for make the User Experience good.
 When I planned out the design, I was serching around the internet for some inspiration. My website is about a musician/DJ and therefore, I was looking at other famous DJs websites and found that almost every DJ had the same theme on their sites. So I used that as a template when developed this website, but of course with my own style and touch to make it stand out from the others, and made it so eye-cathing I possibly could for only using HTML and CSS.
 ## Colors
 I used Wizack Twizacks lates album-cover as a theme throuh out the whole website. The color path I chose to work with was: lightblue, pink, purple, white and black. And feel like it goes very well together and standing out and easy for eyes to read.
-#ff4dd2 the pink colour
-#99bbff the light blue colour
-And then I used black and White.
+![alt](/wireframes/palette.png)
 
 ## Fonts
 I choosed to go with two different Fonts. 'Montserrat' for all of the text on the site, and 'Audiowide' for all headlines, navigationbar and buttons. I think that fit the theme and goes well with the design. Easy to read the text, and for rubrics its nice to have something bolder that catch your eye.
@@ -71,6 +71,7 @@ Under the music section, we have the event section. That show us a table with pl
 Below this event section, we have the last one, the Contact section. Here you can just fill in the form with your name and email and you question or request and press submit and send! Easy and it also contain a little information text for the user how to do it.
 At the bottom of the whole page we have the footer. Here are links to all social media and an email address to stay updated and connected. 
 
+# Wireframes
 
 # Features
 This is a one-page scroll website where all information is on one page, but divided into different sections.
