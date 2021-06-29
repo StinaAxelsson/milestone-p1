@@ -72,9 +72,10 @@ Below this event section, we have the last one, the Contact section. Here you ca
 At the bottom of the whole page we have the footer. Here are links to all social media and an email address to stay updated and connected. 
 
 # Wireframes
-[Mobile version](https://github.com/StinaAxelsson/milestone-p1#media)
-[Tablet/Ipad version](https://github.com/StinaAxelsson/milestone-p1#media)
-[Desktop version](https://github.com/StinaAxelsson/milestone-p1#media)
+
+* [Mobile version](https://github.com/StinaAxelsson/milestone-p1/blob/main/wireframes/mobile.pdf)
+* [Tablet/Ipad version](https://github.com/StinaAxelsson/milestone-p1/blob/main/wireframes/tablet.pdf)
+* [Desktop version](https://github.com/StinaAxelsson/milestone-p1/blob/main/wireframes/desktop.pdf)
 
 # Features
 This is a one-page scroll website where all information is on one page, but divided into different sections.
