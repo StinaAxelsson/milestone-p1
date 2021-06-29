@@ -153,7 +153,9 @@ I had to rewrite this section many times until I find a very good tutorial at yo
 * Other than this three bug problems, I had alot of problems with the height of my sections. When resized it to smaller screen the content in the sections got hidden behind the next sections. Thanks to Devtool, after many hours of head scrathing I found the problem and It was finally completed in both bigger screens and the absolut smallest.
 ## Validator Testing
 
+Here is the result of HTML 
 ![alt](/wireframes/html-validator.png)
+Here is the result of CSS
 ![alt](/wireframes/css-validator.png)
 
  [Link to my Validator CSS result](http://jigsaw.w3.org/css-validator/validator$link) 
@@ -187,8 +189,8 @@ But when thing started to get harder, for example the music section to make it l
 
 ## Media
 * All of the images of music-albums and of Tommy I got sent from my brother or taken from his other sites and social media, like soundcloud, facebook and google.
-* The background for the music section I found on google images (found the link)
-* The background of the event section i found at google images (link)
+* The background for the music section I found on google images https://getwallpapers.com/wallpaper/full/6/1/5/393909.jpg
+* The background of the event section i found at google images https://favpng.com/png_view/map-european-union-world-map-clip-art-png/Bxgne1CC
 * Spotify music player I embedded from Spotify.
 <hr>
 
