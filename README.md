@@ -7,7 +7,7 @@
 
 This project is developed as my first Milestone project assignment at the Code Institute course I take. I chose to build my project as a One-page scrolling website to make my content on the website more effective for the user experience.
 
-![alt](/wireframes/responsive.png)
+![alt](/wireframes/responsive-.png)
 <hr>
 
 # Content
@@ -71,6 +71,8 @@ Under the music section, we have the event section. That show us a table with pl
 Below this event section, we have the last one, the Contact section. Here you can just fill in the form with your name and email and you question or request and press submit and send! Easy and it also contain a little information text for the user how to do it.
 At the bottom of the whole page we have the footer. Here are links to all social media and an email address to stay updated and connected. 
 
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
+
 # Wireframes
 
 * [Mobile version](https://github.com/StinaAxelsson/milestone-p1/blob/main/wireframes/mobile.pdf)
@@ -117,6 +119,7 @@ This is a one-page scroll website where all information is on one page, but divi
 * In the Music Section, I wanted to put a media player under each album that the user can play the music directly via the website instead of just clicking and opening in the new tab. 
 * Also in the Music Section, I was planning to make a carousel for the albums. But because I have not yet learned much about javascript, it had to be a grid with the album instead.
 
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
 
 <hr>
 
@@ -137,7 +140,7 @@ This is a one-page scroll website where all information is on one page, but divi
 * [Am I Responsive](http://ami.responsivedesign.is/#) -Used to the screenshot of how the site looks in different screen-sizes.
 * Chrome Devtool -My biggest help, founding bugs, errors and a hughe help when make the site responsive.
 
-
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
 
 <hr>
 
@@ -160,7 +163,7 @@ Here is the result of CSS
 
  [Link to my Validator CSS result](http://jigsaw.w3.org/css-validator/validator$link) 
 
-
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
 <hr>
 
 # Deployment
@@ -175,6 +178,8 @@ For deploy this site I had to follow this steps:
 6. Save and wait a few seconds until it deployed.
 
 Here is my live link deployed: https://stinaaxelsson.github.io/milestone-p1/
+
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
 <hr>
 
 # Credits
@@ -192,9 +197,13 @@ But when thing started to get harder, for example the music section to make it l
 * The background for the music section I found on google images https://getwallpapers.com/wallpaper/full/6/1/5/393909.jpg
 * The background of the event section i found at google images https://favpng.com/png_view/map-european-union-world-map-clip-art-png/Bxgne1CC
 * Spotify music player I embedded from Spotify.
+
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
 <hr>
 
 # Acknowledgements
 In this section, I would like to thank some people that has been to a lot of help during this project. First I like to thank my boyfriend who has been a huge support and help, even if he does not know anything about code he have helped me with a lot of support and encourage me to not give up, he have taking care of the kids so I have been able to concentrate and hand in some food at my desk while coding. Really thankful. 
 Than I want to thank my mentor Oluwafemi Medale for giving me many tips how I should think and rethink, and giving me feedback for my ideeas and thats have been really helpful for me. 
 And for the last, I want to thank slack community to help me everytime I have a question or just searvh old threads of similar questions and problems that I got.
+
+[Back to top](https://github.com/StinaAxelsson/milestone-p1#project-description)
