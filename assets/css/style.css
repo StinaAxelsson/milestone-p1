@@ -559,7 +559,8 @@ td > i{
     3px 3px 0px #99bbff,
     6px 6px 0px #e600ac;
 }
-   
+
+/*Using a little help from Love Running project when style the form */   
 .contact-form{
     margin: 60px auto 10px auto;
     display: block;
